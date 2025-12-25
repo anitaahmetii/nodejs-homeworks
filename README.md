@@ -1,4 +1,4 @@
 # nodejs-homeworks
 All Node.js course homeworks in one repository.
 ## list of homeworks
-- **HW-01**: ...
+- **HW-01**: Buffer, Path, and File System
