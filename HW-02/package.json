@@ -1,0 +1,15 @@
+{
+  "name": "github-info-hw02",
+  "version": "1.0.1",
+  "description": "\"Module to get GitHub username and number of repositories\"",
+  "license": "ISC",
+  "author": "Anita",
+  "type": "commonjs",
+  "main": "githubInfo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
