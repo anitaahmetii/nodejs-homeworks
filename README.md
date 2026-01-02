@@ -4,3 +4,4 @@ All Node.js course homeworks in one repository.
 - **HW-01**: Buffer, Path, and File System.
 - **HW-02**: GitHub Info Module — using axios with error handling and published on npm.
 - **HW-03**: Person Class with EventEmitter — ES5 and ES6 variants.
+- **HW-04**: Error handling using streams, promises, and async/await.
