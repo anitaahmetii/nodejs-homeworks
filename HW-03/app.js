@@ -14,5 +14,8 @@ console.log("-------------------ES 5------------------");
 const bill2 = new OldPerson("Bill");
 const tom2 = new OldPerson("Tom");
 
-bill2.speaks("Hello, I am Bill from ES 5!");
-tom2.speaks("Greetings, this is Tom from ES 5!");
+bill2.on('says', bill2.speaks);
+tom2.on('says', tom2.speaks);
+
+bill2.emit('says', "Hello, I am Bill from ES 5!")
+tom2.emit('says', "Greetings, this is Tom from ES 5!");
