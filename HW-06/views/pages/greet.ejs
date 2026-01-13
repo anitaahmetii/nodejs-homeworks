@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+        nav {
+            background-color: darkred;
+            padding: 15px 30px;
+            color: white;
+            display: flex;
+            justify-content: flex-end; 
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            transform: scale(1.2);
+        }
+        .container {
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container h1 {
+            font-size: 36px;
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/logout">Logout</a>
+    </nav>
+
+    <div class="container">
+        <h1>Greetings <%= email %>!</h1>
+    </div>
+</body>
+</html>
